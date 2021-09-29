@@ -1,0 +1,9 @@
+*.ipynb
+/caption_datasets/*
+/viecap4h-public-train/*
+/vietcap4h-public-test/*
+*.json
+*.pth
+*.zip
+*.tar.xz
+*.pdf

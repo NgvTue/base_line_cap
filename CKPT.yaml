@@ -1,0 +1,8 @@
+# yamllint disable
+end-of-epoch: true
+error: 1.7215592861175537
+loss: 1.721559208173018
+unixtime: 1632951625.0474346
+
+
+@ Resize shaope (N,M,seq)

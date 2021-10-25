@@ -961,7 +961,9 @@ class Brain:
             # Training stage
             self.on_stage_start(Stage.TRAIN, epoch)
             self.modules.train()
-
+            if hasattr(self,'early_stop'):
+                if self.early_stop:
+                    break
             # Reset nonfinite count to 0 each epoch
             self.nonfinite_count = 0
 
